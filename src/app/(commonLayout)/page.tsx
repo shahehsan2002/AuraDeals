@@ -1,5 +1,9 @@
+import Slider from "../components/Slider";
+
 const Welcome = () => {
-  return <div>Welcome</div>;
+  return <div>
+    <Slider/>
+  </div>;
 };
 
 export default Welcome;

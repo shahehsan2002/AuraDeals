@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Apollo Gears",
@@ -15,6 +16,7 @@ export default function DashboardLayout({
     <div>
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 }
