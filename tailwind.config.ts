@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        aura: '#F35C7A',
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
@@ -16,4 +17,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
