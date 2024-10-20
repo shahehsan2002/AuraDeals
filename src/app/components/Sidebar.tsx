@@ -92,13 +92,13 @@ const Sidebar = ({ children }: { children: ReactNode }) => {
             </Link>
           </li>
           <li>
-            <Link
+            {/* <Link
               href="/dashboard/paymentManagement"
               className="flex items-center p-3 rounded-lg hover:bg-pink-600 transition duration-300 ease-in-out"
             >
               <span className="mr-4 text-pink-400">💳</span>
               <span>Payment Management</span>
-            </Link>
+            </Link> */}
           </li>
           <li>
             <Link
