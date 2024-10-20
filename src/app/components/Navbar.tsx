@@ -29,6 +29,7 @@ const Navbar = () => {
             <Link href="/">Deals</Link>
             <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
+            <Link href="/dashboard">Dashboard</Link>
           </div>
         </div>
         {/* Right side */}
